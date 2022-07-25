@@ -6,15 +6,10 @@ public class Main {
       loginTest.validLoginTest();
 
 
-    }
-
-    public static void wait(int seconds) {
-        try {
-            Thread.sleep(seconds * 1000L);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//      RegisterTest registerTest = new RegisterTest();
+//      registerTest.validRegisterTest();
 
     }
+
 
 }
