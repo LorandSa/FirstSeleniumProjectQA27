@@ -22,6 +22,6 @@ public class LoginTest extends BaseTest {
         loginPage.setEmailField(userEmail);
         loginPage.setPasswordField(userPass);
         loginPage.clickLoginButton();
-        Assert.assertEquals("Hello, " + userName + "!", accountPage.getWelcomeText());
+        Assert.assertEquals("Hello, TestFirstName TestLastName!", accountPage.getWelcomeText());
     }
 }
